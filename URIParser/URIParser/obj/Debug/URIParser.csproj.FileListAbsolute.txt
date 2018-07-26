@@ -1,0 +1,6 @@
+E:\Projects\URIParser\URIParser\URIParser\bin\Debug\URIParser.exe.config
+E:\Projects\URIParser\URIParser\URIParser\bin\Debug\URIParser.exe
+E:\Projects\URIParser\URIParser\URIParser\bin\Debug\URIParser.pdb
+E:\Projects\URIParser\URIParser\URIParser\obj\Debug\URIParser.csprojResolveAssemblyReference.cache
+E:\Projects\URIParser\URIParser\URIParser\obj\Debug\URIParser.exe
+E:\Projects\URIParser\URIParser\URIParser\obj\Debug\URIParser.pdb
