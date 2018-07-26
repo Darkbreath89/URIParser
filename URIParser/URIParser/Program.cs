@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace URIParser
+namespace ConsoleApplication2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string uri = Console.ReadLine();
+            string uri = "https://example.com/path/resource.txt#fragment";
             UriParser parser = new UriParser(uri);
 
             Console.WriteLine(
