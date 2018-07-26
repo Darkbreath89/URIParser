@@ -1,18 +1,20 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication2
+namespace URIParser
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string uri = "https://example.com/path/resource.txt#fragment";
+            Console.WriteLine("Provide URI and press enter");
+            string uri = Console.ReadLine();
             UriParser parser = new UriParser(uri);
 
+            Console.WriteLine();
             Console.WriteLine(
                 "Scheme : " +
                 parser.comp.scheme +
@@ -39,6 +41,8 @@ namespace ConsoleApplication2
                 parser.comp.port
                 );
 
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~");
+            Console.WriteLine("Press enter to exit.");
             Console.ReadLine();
         }
     }
