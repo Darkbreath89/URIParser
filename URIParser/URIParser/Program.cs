@@ -10,9 +10,11 @@ namespace URIParser
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Provide URI and press enter");
             string uri = Console.ReadLine();
             UriParser parser = new UriParser(uri);
 
+            Console.WriteLine();
             Console.WriteLine(
                 "Scheme : " +
                 parser.comp.scheme +
@@ -39,6 +41,8 @@ namespace URIParser
                 parser.comp.port
                 );
 
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~");
+            Console.WriteLine("Press enter to exit.");
             Console.ReadLine();
         }
     }
